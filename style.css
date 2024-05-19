@@ -1,0 +1,38 @@
+
+.img {
+    width: 600px;
+}
+.img2 {
+    width: 400px;
+}
+@media(max-width: 900px) {
+    body {
+        font: 200 10px Verdana, Times, sans-serif;
+    }
+    .header {
+        background-color: rgba(194, 201, 207, 0.308);
+        margin-bottom: 10px;
+        border: 2px solid rgba(58, 124, 209, 0);
+        border-radius: 10px;
+    
+    }
+    a {
+        transition: none;
+        text-decoration: none;
+        color: black
+    }
+    a:hover {
+        color: black;
+        font-size: 5px;
+    }
+    .img {
+        width: 250px;
+        display: flex;
+        border-radius: 13px;
+    }
+    .img2 {
+        width: 200px;
+        display: flex;
+        border-radius: 13px;
+}
+}
