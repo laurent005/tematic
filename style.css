@@ -6,23 +6,12 @@
     width: 400px;
 }
 @media(max-width: 900px) {
-    a {
-        transition: none;
-        text-decoration: none;
-        color: black
-    }
-    a:hover {
-        color: black;
-        font-size: 5px;
-    }
     .img {
         width: 250px;
         display: flex;
-        border-radius: 13px;
     }
     .img2 {
         width: 200px;
         display: flex;
-        border-radius: 13px;
 }
 }
